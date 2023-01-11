@@ -12,6 +12,7 @@ export default function Home() {
         <link rel="icon" href="/fav.png" />
       </Head>
       <Navbar />
+      <Main />
     </>
   )
 }
