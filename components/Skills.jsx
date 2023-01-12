@@ -19,7 +19,7 @@ import React from 'react'
 
 const Skills = () => {
   return (
-    <div id='skills' className='w-full lg:h-screen p-16 lg:p-32 mb-10 md:mt-10'>
+    <div id='skills' className='w-full lg:h-screen px-16 lg:p-32 mb-10 md:mt-10'>
       <div className='max-w-[1240px] mx-auto flex flex-col justify-center h-full'>
         <p className='text-xl tracking-widest uppercase text-[#5651e5]'>
           Skills

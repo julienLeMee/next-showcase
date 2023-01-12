@@ -4,35 +4,49 @@ import { AiOutlineClose, AiOutlineMail, AiOutlineMenu } from 'react-icons/ai'
 import { FaLinkedinIn, FaGithub } from 'react-icons/fa'
 import { BsFillPersonLinesFill } from 'react-icons/bs'
 import navLogoImg from './../public/skills/navLogo.svg'
-import React from 'react'
+import React, { useEffect } from 'react'
 import { useState } from 'react'
 
 export default function Navbar() {
   const [nav, setNav] = useState(false)
+  const [shadow, setShadow] = useState(false)
 
   const handleNav = () => {
     setNav(!nav)
   }
 
+  useEffect(() => {
+    const handleShadow = () => {
+      if (window.scrollY > 50) {
+        setShadow(true)
+      } else {
+        setShadow(false)
+      }
+    }
+    window.addEventListener('scroll', handleShadow)
+  }, [])
+
   return (
-    <div className='fixed w-full h-20 shadow-xl z-[100]'>
+    <div className={ shadow ? 'fixed w-full h-20 shadow-xl z-[100]' : 'fixed w-full h-20 z-[100'}>
       <div className='flex justify-between items-center w-full h-full px-16 2xl:px16'>
-        <Image src={navLogoImg} width={125} height={50} alt='logo' />
+        <Link href='/'>
+          <Image src={navLogoImg} width={125} height={50} alt='logo' />
+        </Link>
         <div>
           <ul className='hidden md:flex'>
             <Link href='/'>
               <li className='ml-10 text-sm uppercase hover:border-b'>Home</li>
             </Link>
-            <Link href='/'>
+            <Link href='/#about'>
               <li className='ml-10 text-sm uppercase hover:border-b'>About</li>
             </Link>
-            <Link href='/'>
+            <Link href='/#skills'>
               <li className='ml-10 text-sm uppercase hover:border-b'>Skills</li>
             </Link>
-            <Link href='/'>
+            <Link href='/#projects'>
               <li className='ml-10 text-sm uppercase hover:border-b'>Projects</li>
             </Link>
-            <Link href='/'>
+            <Link href='/#contact'>
               <li className='ml-10 text-sm uppercase hover:border-b'>Contact</li>
             </Link>
           </ul>
@@ -47,7 +61,7 @@ export default function Navbar() {
 
           <div>
             <div className='flex w-full items-center justify-between'>
-              <Image src='/navLogo.svg' width={87} height={35} alt='logo' />
+              <Image src={navLogoImg} width={87} height={35} alt='logo' />
               <div onClick={handleNav} className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer'>
                 <AiOutlineClose size={25} />
               </div>

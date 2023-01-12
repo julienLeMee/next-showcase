@@ -6,13 +6,13 @@ import starWarsImg from './../public/projects/starwars.png'
 import watchlistImg from './../public/projects/watchlist.png'
 import fermeImg from './../public/projects/ferme.jpg'
 import houseImg from './../public/projects/house.png'
-import formImg from './../public/projects/form.png'
-import threejsTextImg from './../public/projects/threejs-text.png'
+// import formImg from './../public/projects/form.png'
+// import threejsTextImg from './../public/projects/threejs-text.png'
 
 const Projects = () => {
   return (
-    <div className='w-full p-16 lg:p-32'>
-      <div className='max-w-[1240px] mx-auto py-16'>
+    <div id='projects' className='w-full p-16 lg:p-32'>
+      <div className='max-w-[1240px] mx-auto'>
         <p className='text-xl tracking-widest uppercase text-[#5651e5]'>Projects</p>
         <h2 className='py-4'>What I've Built</h2>
         <div className='grid md:grid-cols-2 gap-8'>
@@ -53,7 +53,7 @@ const Projects = () => {
             projectUrl='/haunted-house'
             skills='Three.js'
           />
-          <ProjectItem
+          {/* <ProjectItem
             title='Form Validation'
             backgroundImg={formImg}
             projectUrl='/form-validation'
@@ -64,7 +64,7 @@ const Projects = () => {
             backgroundImg={threejsTextImg}
             projectUrl='/3d-text'
             skills='Three.js'
-          />
+          /> */}
 
         </div>
       </div>
