@@ -3,6 +3,7 @@ import Link from 'next/link'
 import { AiOutlineClose, AiOutlineMail, AiOutlineMenu } from 'react-icons/ai'
 import { FaLinkedinIn, FaGithub } from 'react-icons/fa'
 import { BsFillPersonLinesFill } from 'react-icons/bs'
+import navLogoImg from './../public/skills/navLogo.svg'
 import React from 'react'
 import { useState } from 'react'
 
@@ -15,8 +16,8 @@ export default function Navbar() {
 
   return (
     <div className='fixed w-full h-20 shadow-xl z-[100]'>
-      <div className='flex justify-between items-center w-full h-full px-2 2xl:px16'>
-        <Image src='/navLogo.svg' width={125} height={50} alt='logo' />
+      <div className='flex justify-between items-center w-full h-full px-16 2xl:px16'>
+        <Image src={navLogoImg} width={125} height={50} alt='logo' />
         <div>
           <ul className='hidden md:flex'>
             <Link href='/'>

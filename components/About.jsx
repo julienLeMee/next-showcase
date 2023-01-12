@@ -2,14 +2,14 @@ import React from 'react'
 
 const About = () => {
   return (
-    <div className='w-full md:h-screen p-2 flex items-center py-16'>
+    <div className='w-full md:h-screen p-16 lg:p-32 flex items-center py-16 mb-32 md:mb-20'>
       <div className='max-w-[1240px] m-auto md:grid grid-cols-3 gap-8'>
         <div className='col-span-2'>
           <p className='uppercase text-xl tracking-widest text-[#5651e5]'>About</p>
           <h2 className='py-4'>Who I am</h2>
           <p className='py-2 text-gray-600'>// I'm not your normal developer</p>
           <p className='py-2 text-gray-600'>My experiences have made me meticulous, self-reliant, able to manage unexpected issues while meeting deadlines and having a team spirit, skills that are essential for me to successfully complete projects. Programming and new technologies are universes that have always passionate me because they are constantly evolving. Motivated and always eager to learn, I am actively training myself in React and Three.js</p>
-          <p className='py-2 text-gray-600'>In addition to my experience in React and Three.js, I also have a strong background in building robust web applications using Ruby and Ruby on Rails. I am proficient in creating visually appealing websites using HTML and CSS, and utilizing the SASS preprocessor for styling. I have experience integrating interactive and engaging 3D elements into websites using Three.js. To add dynamic functionality to sites, I utilize JavaScript and the Stimulus library, and I have experience developing responsive websites using Bootstrap. I am also well-versed in working with a team and using Agile methodologies, and I use Git and GitHub for version control. In addition, I am also familiar with next.js that is a popular framework for building server-rendered React applications and this is enable me to create fast and responsive website with great user experience.</p>
+          <p className='py-2 text-gray-600'>I also have a strong background in building robust web applications using Ruby and Ruby on Rails. I am proficient in creating visually appealing websites using HTML and CSS, and utilizing the SASS preprocessor for styling. I have experience integrating interactive and engaging 3D elements into websites using Three.js. To add dynamic functionality to sites, I utilize JavaScript, and I have experience developing responsive websites using Bootstrap. I am also well-versed in working with a team and using Agile methodologies, and I use Git and GitHub for version control.</p>
           <p className='py-2 text-gray-600 underline cursor-pointer'>Checkout some of my latest projects.</p>
         </div>
         <div className='w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4 hover:scale-105 duration-300'>
