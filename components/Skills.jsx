@@ -5,16 +5,16 @@ import javascriptImg from './../public/skills/javascript-logo.png'
 import reactImg from './../public/skills/react-logo.png'
 import nextjsImg from './../public/skills/next-js-logo.png'
 import threejsImg from './../public/skills/three-js-logo.png'
-import sassImg from './../public/skills/sass-logo.svg'
+// import sassImg from './../public/skills/sass-logo.svg'
 import tailwindImg from './../public/skills/tailwind-logo.png'
-import gitImg from './../public/skills/git-logo.png'
+// import gitImg from './../public/skills/git-logo.png'
 import githubImg from './../public/skills/github-logo.png'
 import finalCutProImg from './../public/skills/final-cut-pro-logo.png'
 import rubyImg from './../public/skills/ruby-logo.png'
 import railsImg from './../public/skills/rails-logo.png'
-import sqlImg from './../public/skills/sql-logo.png'
+// import sqlImg from './../public/skills/sql-logo.png'
 import bootstrapImg from './../public/skills/bootstrap-logo.png'
-import vercelImg from './../public/skills/vercel-logo.png'
+// import vercelImg from './../public/skills/vercel-logo.png'
 import React from 'react'
 
 const Skills = () => {
@@ -137,7 +137,30 @@ const Skills = () => {
             </div>
           </div>
 
+
           <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
+            <div className='grid grid-cols-2 gap-4 justify-center items-center'>
+              <div className='m-auto'>
+                <Image src={githubImg} width={64} height={64} alt='logo' />
+              </div>
+              <div className='flex flex-col items-center justify-center'>
+                <h3>GITHUB</h3>
+              </div>
+            </div>
+          </div>
+
+          <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
+            <div className='grid grid-cols-2 gap-4 justify-center items-center'>
+              <div className='m-auto'>
+                <Image src={finalCutProImg} width={64} height={64} alt='logo' />
+              </div>
+              <div className='flex flex-col items-center justify-center'>
+                <h3>FINAL CUT PRO</h3>
+              </div>
+            </div>
+          </div>
+
+          {/* <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
               <div className='m-auto'>
                 <Image src={vercelImg} width={64} height={64} alt='logo' />
@@ -173,35 +196,13 @@ const Skills = () => {
           <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
               <div className='m-auto'>
-                <Image src={githubImg} width={64} height={64} alt='logo' />
-              </div>
-              <div className='flex flex-col items-center justify-center'>
-                <h3>GITHUB</h3>
-              </div>
-            </div>
-          </div>
-
-          <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
-            <div className='grid grid-cols-2 gap-4 justify-center items-center'>
-              <div className='m-auto'>
-                <Image src={finalCutProImg} width={64} height={64} alt='logo' />
-              </div>
-              <div className='flex flex-col items-center justify-center'>
-                <h3>FINAL CUT PRO</h3>
-              </div>
-            </div>
-          </div>
-
-          <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
-            <div className='grid grid-cols-2 gap-4 justify-center items-center'>
-              <div className='m-auto'>
                 <Image src={sqlImg} width={64} height={64} alt='logo' />
               </div>
               <div className='flex flex-col items-center justify-center'>
                 <h3>SQL</h3>
               </div>
             </div>
-          </div>
+          </div> */}
 
         </div>
       </div>
