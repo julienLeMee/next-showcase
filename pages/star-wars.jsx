@@ -22,8 +22,8 @@ const starWars = () => {
           <p className='uppercase text-xl tracking-widest text-[#5651e5]'>Project</p>
           <h2 className='py-6'>Overview</h2>
           <p className='pr-16'>
-            Meet-Ball is a mobile (web) application dedicated to Montreal basketball players. It allows them to find playgrounds, players and join games near them. <br />
-            Meet-Ball comes with a ranking system that allows users of the application to play against players of their level when the game mode is "competitive".
+            My project, 'Star Wars Empire Base', is a dynamic and interactive experience coded using Three JS. I had to create custom geometries to accurately build the iconic Tie fighter vessel, as well as incorporate detailed textures, shadows, and lighting effects to bring the scene to life. <br />
+            The end result is a stunning and immersive recreation of the Star Wars universe that fans of the franchise will love.
           </p>
           <button className='px-8 py-2 mt-5 mr-8'>Demo</button>
           <button className='px-8 py-2 mt-5'>Code</button>
