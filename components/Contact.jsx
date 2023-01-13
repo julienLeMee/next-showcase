@@ -20,13 +20,13 @@ const Contact = () => {
                 <img className='rounded-xl hover:scale-105 ease-in duration-300' src="https://images.unsplash.com/photo-1516387938699-a93567ec168e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1471&q=80" alt="/" />
               </div>
               <div >
-                <h2 className='py-2'>Julien</h2>
+                <h2 className='py-6'>Julien</h2>
                 <p>Front-end Developer</p>
                 <p className='py-4'>I am available for freelance or full-time positions. Contact me and let's talk.</p>
               </div>
 
               <div>
-                <p className='uppercase pt-8'>Connect With Me</p>
+                <p className='uppercase pt-16'>Connect With Me</p>
                 <div className='flex items-center justify-between py-4'>
                   <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
                     <FaLinkedinIn />
