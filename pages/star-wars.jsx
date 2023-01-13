@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
-import starWarsImg from '../public/projects/starWars.png'
+import starWarsImg from '../public/projects/starwars.png'
 import { RiRadioButtonFill } from 'react-icons/ri'
 import { AiOutlineArrowLeft } from 'react-icons/ai'
 import Link from 'next/link'
