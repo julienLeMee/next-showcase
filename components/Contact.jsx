@@ -1,8 +1,7 @@
 import Link from 'next/link'
 import React from 'react'
 import { AiOutlineMail } from 'react-icons/ai'
-import { BsFillPersonLinesFill } from 'react-icons/bs'
-import { FaGithub, FaLinkedinIn } from 'react-icons/fa'
+import { FaGithub, FaLinkedinIn, FaTwitter } from 'react-icons/fa'
 import { HiOutlineChevronDoubleUp } from 'react-icons/hi'
 
 const Contact = () => {
@@ -26,20 +25,28 @@ const Contact = () => {
               </div>
 
               <div>
-                <p className='uppercase pt-16'>Connect With Me</p>
+                <p className='uppercase pt-16 text-[#5651e5]'>Connect With Me</p>
                 <div className='flex items-center justify-between py-4'>
-                  <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-                    <FaLinkedinIn />
-                  </div>
-                  <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-                    <FaGithub />
-                  </div>
-                  <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-                    <AiOutlineMail />
-                  </div>
-                  <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-                    <BsFillPersonLinesFill />
-                  </div>
+                  <Link href='https://www.linkedin.com/in/julien-le-mee/' target='_blank'>
+                    <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 hover:text-[#5651e5] ease-in duration-300'>
+                      <FaLinkedinIn />
+                    </div>
+                  </Link>
+                  <Link href='https://github.com/julienLeMee' target='_blank'>
+                    <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 hover:text-[#5651e5] ease-in duration-300'>
+                      <FaGithub />
+                    </div>
+                  </Link>
+                  <Link href='mailto:julemee@gmail.com' target='_blank'>
+                    <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 hover:text-[#5651e5] ease-in duration-300'>
+                      <AiOutlineMail />
+                    </div>
+                  </Link>
+                  <Link href='https://twitter.com/majin__bun' target='_blank'>
+                    <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 hover:text-[#5651e5] ease-in duration-300'>
+                      <FaTwitter />
+                    </div>
+                  </Link>
                 </div>
               </div>
 

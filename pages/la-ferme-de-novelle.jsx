@@ -2,6 +2,7 @@ import Image from 'next/image'
 import React from 'react'
 import fermeImg from '../public/projects/ferme.jpg'
 import { RiRadioButtonFill } from 'react-icons/ri'
+import { AiOutlineArrowLeft } from 'react-icons/ai'
 import Link from 'next/link'
 
 const ferme = () => {
@@ -39,7 +40,7 @@ const ferme = () => {
           </div>
         </div>
         <Link href='/#projects'>
-          <p className='underline cursor-pointer mt-8'>Back</p>
+          <p className='flex items-center underline cursor-pointer mt-8 text-[#5651e5]'><AiOutlineArrowLeft className='mr-2' />Back</p>
         </Link>
       </div>
     </div>

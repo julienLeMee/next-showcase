@@ -2,6 +2,7 @@ import Image from 'next/image'
 import React from 'react'
 import portfolioImg from '../public/projects/portfolio.png'
 import { RiRadioButtonFill } from 'react-icons/ri'
+import { AiOutlineArrowLeft } from 'react-icons/ai'
 import Link from 'next/link'
 
 const portfolio = () => {
@@ -22,7 +23,6 @@ const portfolio = () => {
           <h2 className='py-6'>Overview</h2>
           <p className='pr-16'>
             My portfolio is built using a combination of HTML, CSS, Sass, JavaScript, and Three.js. These technologies allow me to create a visually appealing and interactive website that showcases my projects and skills. HTML provides the structure for the website, while CSS and Sass are used for styling and layout. JavaScript and Three.js are used to add dynamic and interactive elements to the website, such as animations and 3D graphics. <br />
-            By utilizing these technologies, I am able to create a portfolio that not only demonstrates my technical abilities, but also my attention to detail and my ability to create visually engaging user experiences. The portfolio also allows me to showcase my skills and projects, highlighting my technical capabilities and my ability to deliver high-quality work. <br />
             With the help of these technologies, my portfolio is built to be an efficient and effective way to showcase my skills and projects to potential clients and employers.
           </p>
           <button className='px-8 py-2 mt-5 mr-8'>Demo</button>
@@ -42,7 +42,7 @@ const portfolio = () => {
           </div>
         </div>
         <Link href='/#projects'>
-          <p className='underline cursor-pointer mt-8'>Back</p>
+          <p className='flex items-center underline cursor-pointer mt-8 text-[#5651e5]'><AiOutlineArrowLeft className='mr-2' />Back</p>
         </Link>
       </div>
     </div>

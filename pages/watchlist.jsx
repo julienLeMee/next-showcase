@@ -2,6 +2,7 @@ import Image from 'next/image'
 import React from 'react'
 import watchlistImg from '../public/projects/watchlist.png'
 import { RiRadioButtonFill } from 'react-icons/ri'
+import { AiOutlineArrowLeft } from 'react-icons/ai'
 import Link from 'next/link'
 
 const watchlist = () => {
@@ -39,7 +40,7 @@ const watchlist = () => {
           </div>
         </div>
         <Link href='/#projects'>
-          <p className='underline cursor-pointer mt-8'>Back</p>
+          <p className='flex items-center underline cursor-pointer mt-8 text-[#5651e5]'><AiOutlineArrowLeft className='mr-2' />Back</p>
         </Link>
       </div>
     </div>
