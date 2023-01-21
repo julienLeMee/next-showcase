@@ -25,8 +25,12 @@ const ferme = () => {
             My project, 'La Ferme de Novelle', is a showcase website coded using HTML, CSS, Bootstrap and Javascript. The website is designed to present a charolaise farm that specializes in raising free-range chickens and Charolais beef cattle. The layout is designed to be clean and simple, with easy navigation and a modern look. <br />
             The end result is a professional and visually appealing website that effectively presents the farm's offerings.
           </p>
-          <button className='px-8 py-2 mt-5 mr-8'>Demo</button>
-          <button className='px-8 py-2 mt-5'>Code</button>
+          <Link href='https://la-ferme-de-novelle.vercel.app/'>
+            <button className='px-8 py-2 mt-5 mr-8 hover:scale-105 duration-300'>Demo</button>
+          </Link>
+          <Link href='https://github.com/julienLeMee'>
+            <button className='px-8 py-2 mt-5 hover:scale-105 duration-300'>Code</button>
+          </Link>
         </div>
         <div className='col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl p-4 h-auto'>
           <div className="p-2">

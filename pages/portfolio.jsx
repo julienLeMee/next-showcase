@@ -25,8 +25,12 @@ const portfolio = () => {
             My portfolio is built using a combination of HTML, CSS, Sass, JavaScript, and Three.js. These technologies allow me to create a visually appealing and interactive website that showcases my projects and skills. HTML provides the structure for the website, while CSS and Sass are used for styling and layout. JavaScript and Three.js are used to add dynamic and interactive elements to the website, such as animations and 3D graphics. <br />
             With the help of these technologies, my portfolio is built to be an efficient and effective way to showcase my skills and projects to potential clients and employers.
           </p>
-          <button className='px-8 py-2 mt-5 mr-8'>Demo</button>
-          <button className='px-8 py-2 mt-5'>Code</button>
+          <Link href='http://www.julienlemee.com'>
+            <button className='px-8 py-2 mt-5 mr-8 hover:scale-105 duration-300'>Demo</button>
+          </Link>
+          <Link href='https://github.com/julienLeMee'>
+            <button className='px-8 py-2 mt-5 hover:scale-105 duration-300'>Code</button>
+          </Link>
         </div>
         <div className='col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl p-4 h-auto'>
           <div className="p-2">

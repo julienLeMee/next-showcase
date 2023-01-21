@@ -25,8 +25,12 @@ const house = () => {
             My project, 'Haunted House', is a dynamic and interactive experience coded using Three JS. I had to create custom geometries to accurately build the haunted house, as well as incorporate detailed textures, shadows, and lighting effects to bring the scene to life. <br />
             The end result is a stunning and immersive experience that immerses the viewer in a spooky and eerie atmosphere, perfect for Halloween season
           </p>
-          <button className='px-8 py-2 mt-5 mr-8'>Demo</button>
-          <button className='px-8 py-2 mt-5'>Code</button>
+          <Link href='https://haunted-house-threejs-seven.vercel.app/'>
+            <button className='px-8 py-2 mt-5 mr-8 hover:scale-105 duration-300'>Demo</button>
+          </Link>
+          <Link href='https://github.com/julienLeMee'>
+            <button className='px-8 py-2 mt-5 hover:scale-105 duration-300'>Code</button>
+          </Link>
         </div>
         <div className='col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl p-4 h-auto'>
           <div className="p-2">

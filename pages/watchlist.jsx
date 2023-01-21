@@ -25,8 +25,12 @@ const watchlist = () => {
             My project, 'Watchlist', is a web-based application built using Ruby on Rails. The user interface is designed using Bootstrap and enhanced with Javascript. The app allows users to create bookmarks of different film categories and add films they want to watch to each category. <br />
             The end result is a sleek and organized way for movie enthusiasts to keep track of their films to watch.
           </p>
-          <button className='px-8 py-2 mt-5 mr-8'>Demo</button>
-          <button className='px-8 py-2 mt-5'>Code</button>
+          <Link href='https://rails-watch-list-julien.herokuapp.com/'>
+            <button className='px-8 py-2 mt-5 mr-8 hover:scale-105 duration-300'>Demo</button>
+          </Link>
+          <Link href='https://github.com/julienLeMee'>
+            <button className='px-8 py-2 mt-5 hover:scale-105 duration-300'>Code</button>
+          </Link>
         </div>
         <div className='col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl p-4 h-auto'>
           <div className="p-2">
