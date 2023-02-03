@@ -36,16 +36,16 @@ const Projects = () => {
             skills='Three.js'
           />
           <ProjectItem
+            title='La Ferme De Novelle'
+            backgroundImg='https://images.unsplash.com/photo-1516253593875-bd7ba052fbc5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80'
+            projectUrl='/la-ferme-de-novelle'
+            skills='Next.js | Tailwind | Weather API'
+          />
+          <ProjectItem
             title='Watchlist'
             backgroundImg={watchlistImg}
             projectUrl='/watchlist'
             skills='Ruby on Rails | Bootstrap'
-          />
-          <ProjectItem
-            title='La Ferme De Novelle'
-            backgroundImg={fermeImg}
-            projectUrl='/la-ferme-de-novelle'
-            skills='HTML | CSS | Bootstrap'
           />
           <ProjectItem
             title='Haunted House'
